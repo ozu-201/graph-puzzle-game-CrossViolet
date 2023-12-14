@@ -1,0 +1,127 @@
+cmake_minimum_required(VERSION 3.25)
+project(graph_puzzle_game_CrossViolet)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(Array)
+include_directories(Array/DartsGame)
+include_directories(Array/Graph)
+include_directories(Array/Heap)
+include_directories(Array/MathematicalExpression)
+include_directories(Array/Sort)
+include_directories(General)
+include_directories(List)
+include_directories(List/Graph)
+include_directories(List/Polynomial)
+include_directories(Tree)
+
+add_executable(graph_puzzle_game_CrossViolet
+        Array/DartsGame/Element.cpp
+        Array/DartsGame/Element.h
+        Array/DartsGame/Queue.cpp
+        Array/DartsGame/Queue.h
+        Array/DartsGame/State.cpp
+        Array/DartsGame/State.h
+        Array/DartsGame/Test.cpp
+        Array/Graph/Graph.cpp
+        Array/Graph/Graph.h
+        Array/Heap/DHeap.cpp
+        Array/Heap/DHeap.h
+        Array/Heap/Heap.cpp
+        Array/Heap/Heap.h
+        Array/Heap/HeapNode.cpp
+        Array/Heap/HeapNode.h
+        Array/Heap/MaxDHeap.cpp
+        Array/Heap/MaxDHeap.h
+        Array/Heap/MaxHeap.cpp
+        Array/Heap/MaxHeap.h
+        Array/Heap/MinDHeap.cpp
+        Array/Heap/MinDHeap.h
+        Array/Heap/MinHeap.cpp
+        Array/Heap/MinHeap.h
+        Array/MathematicalExpression/Element.cpp
+        Array/MathematicalExpression/Element.h
+        Array/MathematicalExpression/Evaluate.cpp
+        Array/MathematicalExpression/Stack.cpp
+        Array/MathematicalExpression/Stack.h
+        Array/MathematicalExpression/Token.cpp
+        Array/MathematicalExpression/Token.h
+        Array/MathematicalExpression/TokenType.h
+        Array/Sort/BubbleSort.cpp
+        Array/Sort/BubbleSort.h
+        Array/Sort/BucketSort.cpp
+        Array/Sort/BucketSort.h
+        Array/Sort/HeapSort.cpp
+        Array/Sort/HeapSort.h
+        Array/Sort/InsertionSort.cpp
+        Array/Sort/InsertionSort.h
+        Array/Sort/MergeSort.cpp
+        Array/Sort/MergeSort.h
+        Array/Sort/QuickSort.cpp
+        Array/Sort/QuickSort.h
+        Array/Sort/SelectionSort.cpp
+        Array/Sort/SelectionSort.h
+        Array/Sort/ShellSort.cpp
+        Array/Sort/ShellSort.h
+        Array/Sort/Sort.h
+        Array/DisjointSet.cpp
+        Array/DisjointSet.h
+        Array/Element.cpp
+        Array/Element.h
+        Array/Hash.cpp
+        Array/Hash.h
+        Array/Queue.cpp
+        Array/Queue.h
+        Array/Set.cpp
+        Array/Set.h
+        Array/Stack.cpp
+        Array/Stack.h
+        General/AbstractGraph.cpp
+        General/AbstractGraph.h
+        General/Path.cpp
+        General/Path.h
+        List/Graph/Edge.cpp
+        List/Graph/Edge.h
+        List/Graph/EdgeList.cpp
+        List/Graph/EdgeList.h
+        List/Graph/Graph.cpp
+        List/Graph/Graph.h
+        List/Polynomial/Polynomial.cpp
+        List/Polynomial/Polynomial.h
+        List/Polynomial/Term.cpp
+        List/Polynomial/Term.h
+        List/Polynomial/TermNode.cpp
+        List/Polynomial/TermNode.h
+        List/Polynomial/TestPolynomial.cpp
+        List/DoublyLinkedList.cpp
+        List/DoublyLinkedList.h
+        List/DoublyNode.cpp
+        List/DoublyNode.h
+        List/Hash.cpp
+        List/Hash.h
+        List/LinkedList.cpp
+        List/LinkedList.h
+        List/Node.cpp
+        List/Node.h
+        List/Queue.cpp
+        List/Queue.h
+        List/Stack.cpp
+        List/Stack.h
+        Tree/AvlTree.cpp
+        Tree/AvlTree.h
+        Tree/AvlTreeNode.cpp
+        Tree/AvlTreeNode.h
+        Tree/BTree.cpp
+        Tree/BTree.h
+        Tree/BTreeNode.cpp
+        Tree/BTreeNode.h
+        Tree/Element.cpp
+        Tree/Element.h
+        Tree/Queue.cpp
+        Tree/Queue.h
+        Tree/Stack.cpp
+        Tree/Stack.h
+        Tree/Tree.cpp
+        Tree/Tree.h
+        Tree/TreeNode.cpp
+        Tree/TreeNode.h)
