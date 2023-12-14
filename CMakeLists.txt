@@ -86,6 +86,7 @@ add_executable(graph_puzzle_game_CrossViolet
         List/Graph/EdgeList.h
         List/Graph/Graph.cpp
         List/Graph/Graph.h
+        List/Graph/helloWorldTest.cpp
         List/Polynomial/Polynomial.cpp
         List/Polynomial/Polynomial.h
         List/Polynomial/Term.cpp
@@ -124,4 +125,4 @@ add_executable(graph_puzzle_game_CrossViolet
         Tree/Tree.cpp
         Tree/Tree.h
         Tree/TreeNode.cpp
-        Tree/TreeNode.h)
+        Tree/TreeNode.h List/Graph/helloWorldTest.cpp)
