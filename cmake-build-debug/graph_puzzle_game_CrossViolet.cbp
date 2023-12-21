@@ -122,9 +122,6 @@
 		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/Array/DartsGame/State.h">
 			<Option target="graph_puzzle_game_CrossViolet"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/Array/DartsGame/Test.cpp">
-			<Option target="graph_puzzle_game_CrossViolet"/>
-		</Unit>
 		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/Array/DisjointSet.cpp">
 			<Option target="graph_puzzle_game_CrossViolet"/>
 		</Unit>
@@ -326,9 +323,6 @@
 		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/List/Graph/Graph.h">
 			<Option target="graph_puzzle_game_CrossViolet"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/List/Graph/helloWorldTest.cpp">
-			<Option target="graph_puzzle_game_CrossViolet"/>
-		</Unit>
 		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/List/Hash.cpp">
 			<Option target="graph_puzzle_game_CrossViolet"/>
 		</Unit>
@@ -363,9 +357,6 @@
 			<Option target="graph_puzzle_game_CrossViolet"/>
 		</Unit>
 		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/List/Polynomial/TermNode.h">
-			<Option target="graph_puzzle_game_CrossViolet"/>
-		</Unit>
-		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/List/Polynomial/TestPolynomial.cpp">
 			<Option target="graph_puzzle_game_CrossViolet"/>
 		</Unit>
 		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/List/Queue.cpp">
@@ -432,6 +423,9 @@
 			<Option target="graph_puzzle_game_CrossViolet"/>
 		</Unit>
 		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/Tree/TreeNode.h">
+			<Option target="graph_puzzle_game_CrossViolet"/>
+		</Unit>
+		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/main.cpp">
 			<Option target="graph_puzzle_game_CrossViolet"/>
 		</Unit>
 		<Unit filename="C:/Users/TEMP/CLionProjects/graph-puzzle-game-CrossViolet/CMakeLists.txt">

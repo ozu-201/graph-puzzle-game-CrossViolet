@@ -200,30 +200,6 @@ Array/DartsGame/State.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/Array/DartsGame/State.cpp.s
 .PHONY : Array/DartsGame/State.cpp.s
 
-Array/DartsGame/Test.obj: Array/DartsGame/Test.cpp.obj
-.PHONY : Array/DartsGame/Test.obj
-
-# target to build an object file
-Array/DartsGame/Test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/Array/DartsGame/Test.cpp.obj
-.PHONY : Array/DartsGame/Test.cpp.obj
-
-Array/DartsGame/Test.i: Array/DartsGame/Test.cpp.i
-.PHONY : Array/DartsGame/Test.i
-
-# target to preprocess a source file
-Array/DartsGame/Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/Array/DartsGame/Test.cpp.i
-.PHONY : Array/DartsGame/Test.cpp.i
-
-Array/DartsGame/Test.s: Array/DartsGame/Test.cpp.s
-.PHONY : Array/DartsGame/Test.s
-
-# target to generate assembly for a file
-Array/DartsGame/Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/Array/DartsGame/Test.cpp.s
-.PHONY : Array/DartsGame/Test.cpp.s
-
 Array/DisjointSet.obj: Array/DisjointSet.cpp.obj
 .PHONY : Array/DisjointSet.obj
 
@@ -1016,30 +992,6 @@ List/Graph/Graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/List/Graph/Graph.cpp.s
 .PHONY : List/Graph/Graph.cpp.s
 
-List/Graph/helloWorldTest.obj: List/Graph/helloWorldTest.cpp.obj
-.PHONY : List/Graph/helloWorldTest.obj
-
-# target to build an object file
-List/Graph/helloWorldTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/List/Graph/helloWorldTest.cpp.obj
-.PHONY : List/Graph/helloWorldTest.cpp.obj
-
-List/Graph/helloWorldTest.i: List/Graph/helloWorldTest.cpp.i
-.PHONY : List/Graph/helloWorldTest.i
-
-# target to preprocess a source file
-List/Graph/helloWorldTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/List/Graph/helloWorldTest.cpp.i
-.PHONY : List/Graph/helloWorldTest.cpp.i
-
-List/Graph/helloWorldTest.s: List/Graph/helloWorldTest.cpp.s
-.PHONY : List/Graph/helloWorldTest.s
-
-# target to generate assembly for a file
-List/Graph/helloWorldTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/List/Graph/helloWorldTest.cpp.s
-.PHONY : List/Graph/helloWorldTest.cpp.s
-
 List/Hash.obj: List/Hash.cpp.obj
 .PHONY : List/Hash.obj
 
@@ -1183,30 +1135,6 @@ List/Polynomial/TermNode.s: List/Polynomial/TermNode.cpp.s
 List/Polynomial/TermNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/List/Polynomial/TermNode.cpp.s
 .PHONY : List/Polynomial/TermNode.cpp.s
-
-List/Polynomial/TestPolynomial.obj: List/Polynomial/TestPolynomial.cpp.obj
-.PHONY : List/Polynomial/TestPolynomial.obj
-
-# target to build an object file
-List/Polynomial/TestPolynomial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/List/Polynomial/TestPolynomial.cpp.obj
-.PHONY : List/Polynomial/TestPolynomial.cpp.obj
-
-List/Polynomial/TestPolynomial.i: List/Polynomial/TestPolynomial.cpp.i
-.PHONY : List/Polynomial/TestPolynomial.i
-
-# target to preprocess a source file
-List/Polynomial/TestPolynomial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/List/Polynomial/TestPolynomial.cpp.i
-.PHONY : List/Polynomial/TestPolynomial.cpp.i
-
-List/Polynomial/TestPolynomial.s: List/Polynomial/TestPolynomial.cpp.s
-.PHONY : List/Polynomial/TestPolynomial.s
-
-# target to generate assembly for a file
-List/Polynomial/TestPolynomial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/List/Polynomial/TestPolynomial.cpp.s
-.PHONY : List/Polynomial/TestPolynomial.cpp.s
 
 List/Queue.obj: List/Queue.cpp.obj
 .PHONY : List/Queue.obj
@@ -1472,6 +1400,30 @@ Tree/TreeNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/Tree/TreeNode.cpp.s
 .PHONY : Tree/TreeNode.cpp.s
 
+main.obj: main.cpp.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_CrossViolet.dir\build.make CMakeFiles/graph_puzzle_game_CrossViolet.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1490,9 +1442,6 @@ help:
 	@echo ... Array/DartsGame/State.obj
 	@echo ... Array/DartsGame/State.i
 	@echo ... Array/DartsGame/State.s
-	@echo ... Array/DartsGame/Test.obj
-	@echo ... Array/DartsGame/Test.i
-	@echo ... Array/DartsGame/Test.s
 	@echo ... Array/DisjointSet.obj
 	@echo ... Array/DisjointSet.i
 	@echo ... Array/DisjointSet.s
@@ -1592,9 +1541,6 @@ help:
 	@echo ... List/Graph/Graph.obj
 	@echo ... List/Graph/Graph.i
 	@echo ... List/Graph/Graph.s
-	@echo ... List/Graph/helloWorldTest.obj
-	@echo ... List/Graph/helloWorldTest.i
-	@echo ... List/Graph/helloWorldTest.s
 	@echo ... List/Hash.obj
 	@echo ... List/Hash.i
 	@echo ... List/Hash.s
@@ -1613,9 +1559,6 @@ help:
 	@echo ... List/Polynomial/TermNode.obj
 	@echo ... List/Polynomial/TermNode.i
 	@echo ... List/Polynomial/TermNode.s
-	@echo ... List/Polynomial/TestPolynomial.obj
-	@echo ... List/Polynomial/TestPolynomial.i
-	@echo ... List/Polynomial/TestPolynomial.s
 	@echo ... List/Queue.obj
 	@echo ... List/Queue.i
 	@echo ... List/Queue.s
@@ -1649,6 +1592,9 @@ help:
 	@echo ... Tree/TreeNode.obj
 	@echo ... Tree/TreeNode.i
 	@echo ... Tree/TreeNode.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

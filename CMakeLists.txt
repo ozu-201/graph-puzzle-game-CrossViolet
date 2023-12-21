@@ -22,7 +22,7 @@ add_executable(graph_puzzle_game_CrossViolet
         Array/DartsGame/Queue.h
         Array/DartsGame/State.cpp
         Array/DartsGame/State.h
-        Array/DartsGame/Test.cpp
+#        Array/DartsGame/Test.cpp
         Array/Graph/Graph.cpp
         Array/Graph/Graph.h
         Array/Heap/DHeap.cpp
@@ -86,14 +86,14 @@ add_executable(graph_puzzle_game_CrossViolet
         List/Graph/EdgeList.h
         List/Graph/Graph.cpp
         List/Graph/Graph.h
-        List/Graph/helloWorldTest.cpp
+#        List/Graph/helloWorldTest.cpp
         List/Polynomial/Polynomial.cpp
         List/Polynomial/Polynomial.h
         List/Polynomial/Term.cpp
         List/Polynomial/Term.h
         List/Polynomial/TermNode.cpp
         List/Polynomial/TermNode.h
-        List/Polynomial/TestPolynomial.cpp
+#        List/Polynomial/TestPolynomial.cpp
         List/DoublyLinkedList.cpp
         List/DoublyLinkedList.h
         List/DoublyNode.cpp
@@ -125,4 +125,6 @@ add_executable(graph_puzzle_game_CrossViolet
         Tree/Tree.cpp
         Tree/Tree.h
         Tree/TreeNode.cpp
-        Tree/TreeNode.h List/Graph/helloWorldTest.cpp)
+        Tree/TreeNode.h
+#        List/Graph/helloWorldTest.cpp
+        main.cpp)
